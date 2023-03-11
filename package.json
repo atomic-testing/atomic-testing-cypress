@@ -2,12 +2,13 @@
   "name": "@atomic-testing/cypress",
   "version": "0.5.0",
   "description": "Atomic Testing Cypress Adapter",
-  "main": "dist/src/index.js",
+  "main": "dist/index.js",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --project tsconfig.build.json",
     "test:e2e": "cypress run --browser chrome",
     "test:e2e:ui": "cypress open"
   },
