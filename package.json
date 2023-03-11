@@ -1,7 +1,7 @@
 {
-  "name": "@testzilla/cypress",
-  "version": "0.0.0",
-  "description": "TestZilla Cypress Adapter",
+  "name": "@atomic-testing/cypress",
+  "version": "0.5.0",
+  "description": "Atomic Testing Cypress Adapter",
   "main": "dist/src/index.js",
   "files": [
     "dist"
@@ -16,16 +16,18 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tangentlin/testzilla.git"
+    "url": "https://github.com/tangentlin/atomic-testing-cypress.git"
   },
   "dependencies": {
-    "@testzilla/core": "workspace:*"
+    "@atomic-testing/core": "^0.3.0",
+    "@atomic-testing/dom-core": "^0.5.0"
   },
   "devDependencies": {
     "cypress": "^12.7.0",
     "@testing-library/dom": "^9.0.0",
     "@testing-library/user-event": "^14.0.0",
-    "@testzilla/component-driver-mui-v5": "workspace:*",
+    "@atomic-testing/component-driver-html": "^0.3.0",
+    "@atomic-testing/component-driver-mui-v5": "^0.3.0",
     "@types/chai": "^4.0.0",
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.0.0",

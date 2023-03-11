@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "composite": true
+  },
+  "extends": "./tsconfig.json",
+  "exclude": ["**/*/dist", "node_modules", "**/*/node_modules", "__tests__/**/*", "cypress/**/*"]
+}
