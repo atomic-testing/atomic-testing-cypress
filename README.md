@@ -1,2 +1,4 @@
-# testzilla-cypress
-Cypress support for testzilla
+# @atomic-testing/cypress
+
+Cypress adapter for Atomic Testing
+
